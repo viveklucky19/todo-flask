@@ -1,0 +1,10 @@
+1) pip install virtualenv
+
+
+2) -- create virtausl env
+
+virtualenv [name]  
+
+3) Use virtual env
+
+[name]\Scripts\activate
