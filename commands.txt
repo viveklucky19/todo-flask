@@ -8,3 +8,14 @@ virtualenv [name]
 3) Use virtual env
 
 [name]\Scripts\activate
+
+--- heroku deploy 
+
+
+heroku login
+pip install gunicorn
+pip freeze > requirements.txt
+
+heroku create vivektodoflask
+
+git push heroku master
